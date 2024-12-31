@@ -52,7 +52,7 @@ y_pred = best_knn.predict(X_test_pca)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Test accuracy with best parameters: {accuracy * 100:.2f}%")
 
-# Optional: Detailed classification report
+# Detailed classification report
 print("\nClassification Report:")
 print(classification_report(y_test, y_pred))
 
