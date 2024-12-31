@@ -10,7 +10,7 @@ The steps involved are:
 As a beginner in machine learning, it was a bit confusing which method(bcuz I dont know any) to use for this PS as most of the solutions used Neural Networks.
 And I dont know WHAT IS REQUIRED TO MAKE A DIGIT RECOGNIZER
 
-So...., I started with basics of:
+So...., I started with some basics which i knew/was learning:
 1. Supervised and unsupervised learning{basic understanding of classification,regression,clustering,dimensionality,reduction}
 2. Simple intro(definitions) to Features:{overfitting,selection, scaling, how it is a part of deep learning}
 3. Some linear algebra{L1,L2 norms,weighted euclidean distance,Mahalanobis Distance}
