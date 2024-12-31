@@ -15,6 +15,8 @@ X, y = mnist.data, mnist.target
 # Convert labels to integers
 y = y.astype(int)
 
+print("MNIST dataset loaded")
+
 # 2. Preprocess the data
 print("Preprocessing data...")
 X = X / 255.0  # Normalize pixel values to [0, 1]
