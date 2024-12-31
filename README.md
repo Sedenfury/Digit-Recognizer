@@ -27,7 +27,7 @@ The MNIST dataset consists of 70,000 images of handwritten digits (0–9), each 
 
 
 The steps involved are:
-1. Loading the MNIST dataset.
+1. Loading the MNIST dataset.                                                          
 Now, normally i would use loasd csv file using pandas library
 But i came across this while looking for a solution for the PS
 fetch_openml('mnist_784', version=1):
@@ -37,8 +37,10 @@ fetch_openml('mnist_784', version=1):
   mnist.target: Contains the labels (0–9) for the digits in the dataset.
   k-NN require the target labels to be numeric
 
-3. Preprocessing the data (normalization and train-test split).
+2. Preprocessing the data.
 
 
-4. Training a k-NN classifier, where 'k' is the number of neighbors considered.
-5. Evaluating the classifier on the test set using accuracy and a detailed classification report.
+3. Apply PCA for dimensionality reduction
+4. Automate k-NN tuning with GridSearchCV
+5. Test the best model
+6. Visualize predictions
