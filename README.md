@@ -7,8 +7,8 @@ The steps involved are:
 3. Training a k-NN classifier, where 'k' is the number of neighbors considered.
 4. Evaluating the classifier on the test set using accuracy and a detailed classification report.
 
-As a beginner in machine learning, it was a bit confusing which method(bcuz I dont know any) to use for this PS as most of the solutions used Neural Networks.
-And I dont know WHAT IS REQUIRED TO MAKE A DIGIT RECOGNIZER
+As a beginner in machine learning, it was a bit confusing which method(bcuz I dont know much) to use for this PS as most of the solutions used Neural Networks.
+And I dont know what exactly is required for a digit recognizer
 
 So...., I started with some basics which i knew/was learning:
 1. Supervised and unsupervised learning{basic understanding of classification,regression,clustering,dimensionality,reduction}
@@ -18,8 +18,8 @@ So...., I started with some basics which i knew/was learning:
 5. Nearest Neighbors{k-NN,ϵ-NN}
 6. Cross Validation
 7. Decision Tree{entropy, Info gain}
-8. Simple Linear Regression{☠️ there was a lot of linear algebra which I dont Know }
-9. Optimization{i stopped here bcuz at this point maybe i should start the PS}
+8. Simple Linear Regression
+9. Optimization
 
 Hence i decided to choose a method between Learning with prototype and Nearest Neighbors
 
